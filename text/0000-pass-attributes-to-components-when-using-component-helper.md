@@ -89,7 +89,7 @@ https://github.com/emberjs/rfcs/issues/497
 
 Without this feature, when ember users need to yield a component and add a "class" attribute, 
 they can workaround by creating a wrapping component that adds the styles, and use the component helper to 
-invoke the wrapper.
+invoke the wrapper. This is cumbersome because we then have components created for the sole purpose of adding a html attribute.
 
 > This section could also include prior art, that is, how other frameworks in the same domain have solved this problem.
 
