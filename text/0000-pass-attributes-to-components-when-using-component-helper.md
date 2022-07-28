@@ -24,7 +24,7 @@ RFC PR: Fill this in with the URL for the Proposal RFC PR
 
 ## Summary
 
-> When invoking a component with the component helper:
+When invoking a component with the component helper:
 
 ```hbs
 {{component 'my-component' reallyImportantArgument=this.foo disabled=false}}
